@@ -1,0 +1,3 @@
+var express = require('express')();
+var app = require('../index')(express);
+express.listen(3001);
