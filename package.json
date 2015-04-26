@@ -9,8 +9,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.12.3",
-    "nodeular-config": "jagreehal/nodeular-config",
-    "nodeular-core": "jagreehal/nodeular-core"
+    "nodeular-config": "git://github.com/jagreehal/nodeular-config",
+    "nodeular-core": "git://github.com/jagreehal/nodeular-core"
   },
   "devDependencies": {
     "chai": "^2.2.0",
