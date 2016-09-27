@@ -6,7 +6,7 @@ function init(app) {
   app.get('/a', function (req, res) {
     setTimeout(function () {
       var date = res.locals.dateStamp || new Date();
-      return res.status(200).send('a - ' + date);
+      return res.status(200).send('aa - ' + date);
     }, 1000);
   });
 
